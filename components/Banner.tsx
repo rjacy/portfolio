@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="banner text-white px-5 md:px-10 lg:px-40 flex items-center justify-center">
+    <div className="banner text-white px-5 md:px-20 lg:px-40 flex items-center justify-center">
       <div className="flex flex-col lg:flex lg:flex-row items-center gap-10 lg:gap-20">
         <div className="lg:w-[50%] flex flex-col gap-5 md:gap-8 justify-center text-center items-center md:text-start md:items-start md:justify-start ">
           <h3 className="font-[family-name:var(--font-syne)] text-2xl font-bold">

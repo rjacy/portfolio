@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Mobilenav = () => {
   return (
-    <div className="flex items-center justify-between bg-darkmode px-5 py-5 md:px-10 md:py-8 font-[family-name:var(--font-syne)]">
+    <div className="flex items-center justify-between bg-darkmode px-5 py-5 md:px-20 md:py-8 font-[family-name:var(--font-syne)]">
       <div>
         <Link href="/" className="text-white font-medium">
           <span className="text-3xl uppercase">Alec O</span>

@@ -3,6 +3,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import Banner from "./Banner";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       transition={{ duration: 1 }}
     >
       <Banner />
+      <Projects />
     </motion.div>
   );
 };
