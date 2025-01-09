@@ -5,7 +5,7 @@ import Mobilenav from "./Mobilenav";
 const Navbar = () => {
   return (
     <div>
-      <div className="hidden lg:flex items-center justify-between bg-[#2c2c2c] dark:bg-darkmode py-5 px-40 font-[family-name:var(--font-syne)]">
+      <div className="hidden lg:flex items-center justify-between bg-darkmode py-5 px-40 font-[family-name:var(--font-syne)]">
         <div>
           <Link href="/" className="text-white font-medium">
             <span className="text-4xl uppercase">Alec O</span>

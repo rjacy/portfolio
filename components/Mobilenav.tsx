@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Mobilenav = () => {
   return (
-    <div className="flex items-center justify-between bg-[#2c2c2c] dark:bg-darkmode px-5 py-5 md:px-10 md:py-8 font-[family-name:var(--font-syne)]">
+    <div className="flex items-center justify-between bg-darkmode px-5 py-5 md:px-10 md:py-8 font-[family-name:var(--font-syne)]">
       <div>
         <Link href="/" className="text-white font-medium">
           <span className="text-3xl uppercase">Alec O</span>
@@ -29,14 +29,28 @@ const Mobilenav = () => {
           </SheetTrigger>
           <SheetContent className="bg-darkmode border-none">
             <SheetClose className="float-right absolute right-3 top-3 bg-darkmode">
-                <Image src="/icons/cl.png" alt="" width={25} height={25} />
+              <Image src="/icons/cl.png" alt="" width={25} height={25} />
             </SheetClose>
-            <SheetHeader>
-              <SheetTitle>Edit profile</SheetTitle>
-              <SheetDescription>
-                Make changes to your profile here. Click save when you're done.
-              </SheetDescription>
-            </SheetHeader>
+            <div className="flex flex-col gap-10 mt-24 text-white font-semibold text-lg font-[family-name:var(--font-syne)]">
+              <Link
+                href="/"
+                className="hover:border-b-2 hover:border-orange-400 hover:transition-all hover:h-7 hover:mr-auto"
+              >
+                Home
+              </Link>
+              <Link
+                href="/about"
+                className="hover:border-b-2 hover:border-orange-400 hover:transition-all hover:h-7 mr-auto"
+              >
+                About
+              </Link>
+              <Link
+                href="/projects"
+                className="hover:border-b-2 hover:border-orange-400 hover:transition-all hover:h-7 mr-auto"
+              >
+                Projects
+              </Link>
+            </div>
           </SheetContent>
         </Sheet>
       </div>
