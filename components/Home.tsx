@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "motion/react";
+import Banner from "./Banner";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      Home
+      <Banner />
     </motion.div>
   );
 };
