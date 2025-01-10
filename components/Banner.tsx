@@ -14,7 +14,7 @@ const Banner = () => {
           <h2 className="font-[family-name:var(--font-syne)] text-2xl md:text-3xl font-bold">
             I&apos;m a Full-Stack Developer based in Lagos Nigeria &#127475;&#127468;
           </h2>
-          <span className="font-semibold text-gray-500 text-sm text-center md:text-justify">
+          {/* <span className="font-semibold text-gray-500 text-sm text-center md:text-justify">
             I’m a dynamic Full-stack Developer driven by a passion for crafting
             cutting-edge applications and seamless user experiences.
             <br />
@@ -23,7 +23,7 @@ const Banner = () => {
             solutions that are not only functional but also engaging and
             visually stunning. My goal is to transform ideas into impactful
             digital products that resonate with users and drive results.
-          </span>
+          </span> */}
           <div className="flex flex-col md:flex md:flex-row items-center md:gap-5">
             <Button className="bg-orange-500 hover:text-white text-basecolor text-lg font-semibold px-10 py-7 rounded-none">
               <Link href="#">View CV/Resume</Link>
