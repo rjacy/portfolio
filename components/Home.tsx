@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import Banner from "./Banner";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Experience from "./Experience";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Banner />
       <Projects />
       <Skills />
+      <Experience />
     </motion.div>
   );
 };

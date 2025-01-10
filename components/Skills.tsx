@@ -18,78 +18,117 @@ const Skills = () => {
           <h2>Skills 🔰</h2>
         </div>
         <div className="font-[family-name:var(--font-syne)] flex flex-col lg:flex lg:flex-row gap-10">
-          <div data-aos="fade-up" className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl">
+          <div
+            data-aos="fade-up"
+            className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl"
+          >
             <h2 className="text-3xl font-extrabold">Backend Dev</h2>
             <div className="flex flex-col">
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Node JS</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Node JS
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Express JS</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Express JS
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">MongoDB</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  MongoDB
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Rest API</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Rest API
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Postgres</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Postgres
+                </span>
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl">
+          <div
+            data-aos="fade-up"
+            className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl"
+          >
             <h2 className="text-3xl font-extrabold">Frontend Dev</h2>
             <div className="flex flex-col">
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">React JS</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  React JS
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Next JS</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Next JS
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Redux</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Redux
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">TailwindCSS</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  TailwindCSS
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">SASS</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  SASS
+                </span>
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl">
+          <div
+            data-aos="fade-up"
+            className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl"
+          >
             <h2 className="text-3xl font-extrabold">Product Design</h2>
             <div className="flex flex-col">
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">User Experience</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  User Experience
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">User Interface</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  User Interface
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Wireframe</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Wireframe
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Mockups</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Mockups
+                </span>
               </div>
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">Graphics Design</span>
+                <span className="text-lg font-semibold text-gray-400">
+                  Graphics Design
+                </span>
               </div>
             </div>
           </div>
