@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="flex flex-col lg:flex lg:flex-row items-center gap-10 lg:gap-20">
         <div className="lg:w-[50%] flex flex-col gap-5 md:gap-8 justify-center text-center items-center md:text-start md:items-start md:justify-start ">
           <h3 className="font-[family-name:var(--font-syne)] text-2xl font-bold">
-            Hello 👋
+            Hello &#128075;
           </h3>
           <h2 className="font-[family-name:var(--font-syne)] text-2xl md:text-3xl font-bold">
             I'm a Full-Stack Developer based in Lagos, Nigeria 🇳🇬

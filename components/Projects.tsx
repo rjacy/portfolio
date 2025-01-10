@@ -18,7 +18,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col gap-10 bg-darkmode text-white px-5 md:px-10 lg:px-40 py-20 md:py-10">
       <div className="bg-basecolor mr-auto px-8 py-3 text-lg font-extrabold font-[family-name:var(--font-syne)]">
-        <h2>Project Portfolio 👩‍🏭</h2>
+        <h2>Project Portfolio &#128188;</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div

@@ -7,7 +7,7 @@ const Skills = () => {
     <div>
       <div className="flex flex-col gap-10 bg-darkmode text-white px-5 md:px-10 lg:px-40 py-5 md:py-20">
         <div className="bg-basecolor mr-auto px-8 py-3 text-lg font-extrabold font-[family-name:var(--font-syne)]">
-          <h2>Skills 🔰</h2>
+          <h2>Skills &#128304;</h2>
         </div>
         <div className="font-[family-name:var(--font-syne)] flex flex-col lg:flex lg:flex-row gap-10">
           <div
