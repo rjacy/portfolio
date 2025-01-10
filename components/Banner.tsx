@@ -7,14 +7,14 @@ const Banner = () => {
   return (
     <div className="banner text-white px-5 md:px-20 lg:px-40 flex items-center justify-center">
       <div className="flex flex-col lg:flex lg:flex-row items-center gap-10 lg:gap-20">
-        <div className="lg:w-[50%] flex flex-col gap-5 md:gap-8 justify-center text-center items-center md:text-start md:items-start md:justify-start ">
-          <h3 className="font-[family-name:var(--font-syne)] text-2xl font-bold">
+        <div className="lg:w-[50%] flex flex-col gap-5 justify-center text-center items-center md:text-start md:items-start md:justify-start ">
+          <h3 className="font-[family-name:var(--font-syne)] text-xl font-bold">
             Hello &#128075;
           </h3>
-          <h2 className="font-[family-name:var(--font-syne)] text-2xl md:text-3xl font-bold">
+          <h2 className="font-[family-name:var(--font-syne)] text-xl md:text-3xl font-bold">
             I&apos;m a Full-Stack Developer based in Lagos Nigeria &#127475;&#127468;
           </h2>
-          {/* <span className="font-semibold text-gray-500 text-sm text-center md:text-justify">
+          <span className="hidden md:block font-medium text-gray-500 text-center md:text-justify">
             I’m a dynamic Full-stack Developer driven by a passion for crafting
             cutting-edge applications and seamless user experiences.
             <br />
@@ -23,8 +23,8 @@ const Banner = () => {
             solutions that are not only functional but also engaging and
             visually stunning. My goal is to transform ideas into impactful
             digital products that resonate with users and drive results.
-          </span> */}
-          <div className="flex flex-col md:flex md:flex-row items-center md:gap-5">
+          </span>
+          <div className="flex flex-col md:flex md:flex-row items-center gap-5">
             <Button className="bg-orange-500 hover:text-white text-basecolor text-lg font-semibold px-10 py-7 rounded-none">
               <Link href="#">View CV/Resume</Link>
             </Button>
@@ -34,8 +34,8 @@ const Banner = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
-                  width="50"
-                  height="50"
+                  width="40"
+                  height="40"
                   viewBox="0 0 50 50"
                   className="fill-current text-white w-10"
                 >
@@ -47,8 +47,8 @@ const Banner = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
-                  width="50"
-                  height="50"
+                  width="40"
+                  height="40"
                   viewBox="0 0 30 30"
                   className="fill-current text-white w-10"
                 >
@@ -60,8 +60,8 @@ const Banner = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
-                  width="50"
-                  height="50"
+                  width="40"
+                  height="40"
                   viewBox="0 0 30 30"
                   className="fill-current text-white w-10"
                 >
@@ -73,8 +73,8 @@ const Banner = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
                   y="0px"
-                  width="50"
-                  height="50"
+                  width="40"
+                  height="40"
                   viewBox="0 0 50 50"
                   className="fill-current text-white w-10"
                 >
@@ -84,13 +84,13 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-[50%]">
+        <div className="lg:w-[50%] md:hidden lg:block">
           <Image
             src="/icons/img.jpg"
             alt=""
             width={600}
             height={600}
-            className="rounded-2xl  block md:hidden lg:block"
+            className="rounded-2xl  block"
           />
         </div>
       </div>
