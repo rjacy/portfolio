@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import AOS from "aos";
+import AOS from "aos"
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
@@ -24,6 +24,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div
           data-aos="fade-up"
+          data-aos-duration="2000"
           className="flex flex-col gap-2 w-full lg:max-w-2xl"
         >
           <div className="flex gap-1 items-center">
@@ -44,6 +45,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-duration="2000"
           className="flex flex-col gap-2 w-full lg:max-w-2xl"
         >
           <div className="flex gap-1 items-center">
@@ -64,6 +66,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-duration="2000"
           className="flex flex-col gap-2 w-full lg:max-w-2xl"
         >
           <div className="flex gap-1 items-center">
@@ -84,6 +87,7 @@ const Projects = () => {
         </div>
         <div
           data-aos="fade-up"
+          data-aos-duration="2000"
           className="flex flex-col gap-2 w-full lg:max-w-2xl"
         >
           <div className="flex gap-1 items-center">

@@ -1,16 +1,8 @@
 import React, { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { ArrowLongRightIcon } from "@heroicons/react/16/solid";
 
 const Skills = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      // easing: "ease-in-out"
-      // once: true
-    });
-  });
   return (
     <div>
       <div className="flex flex-col gap-10 bg-darkmode text-white px-5 md:px-10 lg:px-40 py-5 md:py-20">
@@ -20,6 +12,7 @@ const Skills = () => {
         <div className="font-[family-name:var(--font-syne)] flex flex-col lg:flex lg:flex-row gap-10">
           <div
             data-aos="fade-up"
+            data-aos-duration="2000"
             className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl"
           >
             <h2 className="text-3xl font-extrabold">Backend Dev</h2>
@@ -58,6 +51,7 @@ const Skills = () => {
           </div>
           <div
             data-aos="fade-up"
+            data-aos-duration="2000"
             className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl"
           >
             <h2 className="text-3xl font-extrabold">Frontend Dev</h2>
@@ -96,6 +90,7 @@ const Skills = () => {
           </div>
           <div
             data-aos="fade-up"
+            data-aos-duration="2000"
             className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 rounded-xl"
           >
             <h2 className="text-3xl font-extrabold">Product Design</h2>

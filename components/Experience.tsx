@@ -11,6 +11,7 @@ const Experience = () => {
         <div className="flex flex-col gap-5">
           <div
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             className="flex flex-col p-6 rounded-xl bg-basecolor"
           >
             <span className="text-xl md:text-2xl font-bold">
@@ -22,6 +23,7 @@ const Experience = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             className="flex flex-col p-6 rounded-xl bg-basecolor"
           >
             <span className="text-xl md:text-2xl font-bold">
@@ -33,6 +35,7 @@ const Experience = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             className="flex flex-col p-6 rounded-xl bg-basecolor"
           >
             <span className="text-xl md:text-2xl font-bold">
@@ -44,6 +47,7 @@ const Experience = () => {
           </div>
           <div
             data-aos="zoom-in-up"
+            data-aos-duration="2000"
             className="flex flex-col p-6 rounded-xl bg-basecolor"
           >
             <span className="text-xl md:text-2xl font-bold">
