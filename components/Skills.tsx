@@ -127,6 +127,45 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            className="flex flex-col gap-2 outline outline-2 outline-gray-500 w-auto p-10 pr-20 rounded-xl"
+          >
+            <h2 className="text-3xl font-extrabold">Web3 Dev</h2>
+            <div className="flex flex-col">
+              <div className="flex gap-2 items-center">
+                <ArrowLongRightIcon className="w-5 h-5" />
+                <span className="text-lg font-semibold text-gray-400">
+                  Smart Contracts
+                </span>
+              </div>
+              <div className="flex gap-2 items-center">
+                <ArrowLongRightIcon className="w-5 h-5" />
+                <span className="text-lg font-semibold text-gray-400">
+                  Solidity JS
+                </span>
+              </div>
+              <div className="flex gap-2 items-center">
+                <ArrowLongRightIcon className="w-5 h-5" />
+                <span className="text-lg font-semibold text-gray-400">
+                  Anchor
+                </span>
+              </div>
+              <div className="flex gap-2 items-center">
+                <ArrowLongRightIcon className="w-5 h-5" />
+                <span className="text-lg font-semibold text-gray-400">
+                  Rust Lang
+                </span>
+              </div>
+              <div className="flex gap-2 items-center">
+                <ArrowLongRightIcon className="w-5 h-5" />
+                <span className="text-lg font-semibold text-gray-400">
+                  DApps
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
