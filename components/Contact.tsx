@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -24,7 +25,7 @@ const Contact = () => {
           </div>
           <Link href="https://wa.me/+2348143249436" target="_blank">
             <div className="flex flex-col p-6 rounded-xl bg-basecolor">
-              <span className="text-xl md:text-xl font-bold">WhatsApp Me</span>
+              <span className="flex gap-2 items-center text-xl md:text-xl font-bold">WhatsApp Me <ArrowUpRight className="w-5 h-5" /></span>
             </div>
           </Link>
         </div>

@@ -17,7 +17,7 @@ const Experience = () => {
             <span className="text-xl md:text-2xl font-bold">
               Software Developer (MERN STACK) - Mzienet Systems (Part-time)
             </span>
-            <span className="text-lg font-semibold text-gray-500 font-[family-name:var(--font-poppins)]">
+            <span className="text-lg font-medium text-gray-500 font-[family-name:var(--font-poppins)]">
               Abeokuta, Nigeria | October 2023 - Present
             </span>
           </div>
@@ -29,7 +29,7 @@ const Experience = () => {
             <span className="text-xl md:text-2xl font-bold">
               Software Developer (MERN STACK) - Fiverr (Part-time)
             </span>
-            <span className="text-lg font-semibold text-gray-500 font-[family-name:var(--font-poppins)]">
+            <span className="text-lg font-medium text-gray-500 font-[family-name:var(--font-poppins)]">
               Freelance | August 2024 - Present
             </span>
           </div>
@@ -41,7 +41,7 @@ const Experience = () => {
             <span className="text-xl md:text-2xl font-bold">
               Community State Lead - ATC Africa (Part-time)
             </span>
-            <span className="text-lg font-semibold text-gray-500 font-[family-name:var(--font-poppins)]">
+            <span className="text-lg font-medium text-gray-500 font-[family-name:var(--font-poppins)]">
               Ogun State, Nigeria | July 2023 - July 2024
             </span>
           </div>
@@ -53,7 +53,7 @@ const Experience = () => {
             <span className="text-xl md:text-2xl font-bold">
               Branch Manager - Viva City Multifarious Ltd. (Full-time)
             </span>
-            <span className="text-lg font-semibold text-gray-500 font-[family-name:var(--font-poppins)]">
+            <span className="text-lg font-medium text-gray-500 font-[family-name:var(--font-poppins)]">
               Osogobo, Nigeria | August 2022 - December 2022
             </span>
           </div>
