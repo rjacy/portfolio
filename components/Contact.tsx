@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
           <Link href="https://wa.me/+2348143249436" target="_blank">
             <div className="flex flex-col p-6 rounded-xl bg-basecolor">
-              <span className="text-xl md:text-xl font-bold">WhatsApp Me</span>
+              <span className="text-xl md:text-xl font-bold">WhatsApp</span>
             </div>
           </Link>
         </div>
