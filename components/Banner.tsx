@@ -7,13 +7,16 @@ const Banner = () => {
   return (
     <div className="banner text-white px-5 md:px-20 lg:px-40 flex items-center justify-center">
       <div className="flex flex-col lg:flex lg:flex-row items-center gap-10 lg:gap-20">
-        <div className="lg:w-[50%] flex flex-col gap-5 justify-center text-center items-center md:text-start md:items-start md:justify-start ">
-          <h3 className="font-[family-name:var(--font-syne)] text-xl font-bold">
-            Hello &#128075;
-          </h3>
-          <h2 className="font-[family-name:var(--font-syne)] text-xl md:text-3xl font-bold">
-            I&apos;m a Full-Stack Developer based in Lagos, Nigeria &#127475;&#127468;
-          </h2>
+        <div className="lg:w-[50%] flex flex-col gap-10 justify-center text-center items-center md:text-start md:items-start md:justify-start ">
+          <div>
+            <h3 className="font-[family-name:var(--font-syne)] text-xl font-bold">
+              Hello &#128075;
+            </h3>
+            <h2 className="font-[family-name:var(--font-syne)] text-2xl md:text-3xl font-bold">
+              I&apos;m a Full-Stack Developer based in Lagos, Nigeria
+              &#127475;&#127468;
+            </h2>
+          </div>
           <span className="hidden md:block font-medium text-gray-500 text-center md:text-justify">
             I’m a dynamic Full-stack Developer driven by a passion for crafting
             cutting-edge applications and seamless user experiences.
