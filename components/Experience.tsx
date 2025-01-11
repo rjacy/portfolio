@@ -54,7 +54,7 @@ const Experience = () => {
               Branch Manager - Viva City Multifarious Ltd. (Full-time)
             </span>
             <span className="text-lg font-medium text-gray-500 font-[family-name:var(--font-poppins)]">
-              Osogobo, Nigeria | August 2022 - December 2022
+              Osogbo, Nigeria | August 2022 - December 2022
             </span>
           </div>
         </div>
