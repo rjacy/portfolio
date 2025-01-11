@@ -12,7 +12,7 @@ const Banner = () => {
             Hello &#128075;
           </h3>
           <h2 className="font-[family-name:var(--font-syne)] text-xl md:text-3xl font-bold">
-            I&apos;m a Full-Stack Developer based in Lagos Nigeria &#127475;&#127468;
+            I&apos;m a Full-Stack Developer based in Lagos, Nigeria &#127475;&#127468;
           </h2>
           <span className="hidden md:block font-medium text-gray-500 text-center md:text-justify">
             I’m a dynamic Full-stack Developer driven by a passion for crafting
@@ -90,7 +90,7 @@ const Banner = () => {
             alt=""
             width={600}
             height={600}
-            className="rounded-2xl  block"
+            className="rounded-2xl grayscale"
           />
         </div>
       </div>

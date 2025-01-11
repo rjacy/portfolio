@@ -9,8 +9,8 @@ const Contact = () => {
         <h2>My Contact &#9742;&#65039;</h2>
       </div>
       <div className="font-[family-name:var(--font-syne)] flex flex-col gap-5">
-        <h2 className="text-3xl font-bold">
-          Got an Interesting Project, Let&apos;s Work Together
+        <h2 className="text-2xl font-bold">
+          Got an Interesting Project? Let&apos;s Work Together
         </h2>
         <div className="flex flex-col gap-5">
           <div className="flex flex-col p-6 rounded-xl bg-basecolor">
