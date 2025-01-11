@@ -25,7 +25,7 @@ const Banner = () => {
             digital products that resonate with users and drive results.
           </span>
           <div className="flex flex-col md:flex md:flex-row items-center gap-5">
-            <Button className="bg-orange-500 hover:text-white text-basecolor text-lg font-semibold px-10 py-7 rounded-none">
+            <Button className="bg-orange-500 hover:text-white text-darkmode text-lg font-medium px-10 py-7 rounded-2xl">
               <Link href="#">View CV/Resume</Link>
             </Button>
             <div className="flex gap-2">
