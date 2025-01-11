@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Skills from "@/components/Skills";
 
 const About = () => {
   useEffect(() => {
@@ -86,6 +87,10 @@ const About = () => {
             I remain at the cutting edge of the industry.
           </span>
         </div>
+      </div>
+
+      <div className="bg-darkmode md:px-10 lg:px-20">
+        <Skills />
       </div>
 
       <div className="bg-darkmode md:px-10 lg:px-20">

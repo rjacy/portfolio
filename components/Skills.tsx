@@ -143,7 +143,13 @@ const Skills = () => {
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
                 <span className="text-lg font-semibold text-gray-400">
-                  Solidity JS
+                  Blockchains
+                </span>
+              </div>
+              <div className="flex gap-2 items-center">
+                <ArrowLongRightIcon className="w-5 h-5" />
+                <span className="text-lg font-semibold text-gray-400">
+                Solidity JS
                 </span>
               </div>
               <div className="flex gap-2 items-center">
@@ -155,13 +161,7 @@ const Skills = () => {
               <div className="flex gap-2 items-center">
                 <ArrowLongRightIcon className="w-5 h-5" />
                 <span className="text-lg font-semibold text-gray-400">
-                  Rust Lang
-                </span>
-              </div>
-              <div className="flex gap-2 items-center">
-                <ArrowLongRightIcon className="w-5 h-5" />
-                <span className="text-lg font-semibold text-gray-400">
-                  DApps
+                  Rust
                 </span>
               </div>
             </div>
