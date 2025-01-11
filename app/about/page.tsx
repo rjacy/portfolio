@@ -3,13 +3,13 @@
 import Experience from "@/components/Experience";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
-const page = () => {
+const About = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -103,4 +103,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default About;
