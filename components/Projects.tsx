@@ -37,7 +37,7 @@ const Projects = () => {
                 alt=""
                 width={500}
                 height={500}
-                className="w-full h-full object-fill"
+                className="w-full h-full object-fill rounded-xl"
               />
             </div>
           </Link>
@@ -58,7 +58,7 @@ const Projects = () => {
                 alt=""
                 width={500}
                 height={500}
-                className="w-full h-full object-fill"
+                className="w-full h-full object-fill rounded-xl"
               />
             </div>
           </Link>
@@ -79,7 +79,7 @@ const Projects = () => {
                 alt=""
                 width={500}
                 height={500}
-                className="w-full h-full object-fill"
+                className="w-full h-full object-fill rounded-xl"
               />
             </div>
           </Link>
@@ -100,7 +100,7 @@ const Projects = () => {
                 alt=""
                 width={500}
                 height={500}
-                className="w-full h-full object-fill"
+                className="w-full h-full object-fill rounded-xl"
               />
             </div>
           </Link>
