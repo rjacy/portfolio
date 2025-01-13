@@ -29,7 +29,7 @@ const Banner = () => {
           </span>
           <div className="flex flex-col md:flex md:flex-row items-center gap-5">
             <Button className="bg-orange-500 hover:text-white text-darkmode text-lg font-medium px-10 py-7 rounded-2xl">
-              <Link href="#">View CV/Resume</Link>
+              <Link href="https://drive.google.com/file/d/17iAMfBrKlyXuc--U0kckqJjXIrICIQV9/view?usp=sharing" target="_blank">View CV/Resume</Link>
             </Button>
             <div className="flex gap-2">
               <Link href="https://linkedin.com/in/alecogun" target="_blank">
