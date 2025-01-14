@@ -5,14 +5,14 @@ import "./globals.css";
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
-  weight: ["400", "500", "600", "700"]
-})
+  weight: ["400", "500", "600", "700"],
+});
 
 const syne = Syne({
   subsets: ["greek"],
   variable: "--font-syne",
-  weight: ["400", "500", "600", "700"]
-})
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Alec O. | Portfolio Website",
@@ -26,9 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} ${syne.variable} antialiased`}
-      >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="ql03Luo1i1gG409_qU3_XZTUT_Wc190-jOjqC9xW5Yw"
+        />
+      </head>
+      <body className={`${poppins.variable} ${syne.variable} antialiased`}>
         {children}
       </body>
     </html>
