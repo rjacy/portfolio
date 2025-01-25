@@ -15,7 +15,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Furst | Portfolio Website",
+  title: "Furst A. | Portfolio Website",
   description: "Alec Ogunniran Portfolio website",
 };
 
