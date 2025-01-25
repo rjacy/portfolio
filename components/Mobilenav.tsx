@@ -14,7 +14,7 @@ const Mobilenav = () => {
     <div className="flex items-center justify-between bg-darkmode px-5 py-5 md:px-20 md:py-8 font-[family-name:var(--font-syne)]">
       <div>
         <Link href="/" className="text-white font-medium">
-          <span className="text-3xl uppercase">Alec O</span>
+          <span className="text-3xl uppercase">Furst A</span>
           <span className="text-4xl text-orange-400">.</span>
         </Link>
       </div>
