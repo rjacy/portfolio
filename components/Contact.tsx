@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="flex flex-col gap-5">
           <div className="flex flex-col p-6 rounded-xl bg-basecolor">
             <span className="text-xl md:text-xl font-bold">
-              victoroalec@gmail.com
+              furstdev@gmail.com
             </span>
           </div>
           <div className="flex flex-col p-6 rounded-xl bg-basecolor">
