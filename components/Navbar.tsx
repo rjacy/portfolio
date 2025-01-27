@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="hidden lg:flex items-center justify-between bg-darkmode py-5 px-40 font-[family-name:var(--font-syne)]">
         <div>
           <Link href="/" className="text-white font-medium">
-            <span className="text-4xl uppercase">Furst A</span>
+            <span className="text-4xl uppercase">Fürst</span>
             <span className="text-5xl text-orange-400">.</span>
           </Link>
         </div>
