@@ -32,7 +32,7 @@ const Banner = () => {
               <Link href="https://drive.google.com/file/d/17iAMfBrKlyXuc--U0kckqJjXIrICIQV9/view?usp=sharing" target="_blank">View CV/Resume</Link>
             </Button>
             <div className="flex gap-2">
-              <Link href="https://linkedin.com/in/furstdev" target="_blank">
+              <Link href="https://linkedin.com/in/furstjr" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -45,7 +45,7 @@ const Banner = () => {
                   <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
                 </svg>
               </Link>
-              <Link href="https://x.com/furstdev" target="_blank">
+              <Link href="https://x.com/furstjr" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -58,7 +58,7 @@ const Banner = () => {
                   <path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"></path>
                 </svg>
               </Link>
-              <Link href="https://github.com/furstdev" target="_blank">
+              <Link href="https://github.com/furstjr" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
