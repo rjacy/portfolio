@@ -30,7 +30,7 @@ const Projects = () => {
             <span className="text-lg font-medium">See Project</span>
             <ArrowUpRight className="w-5 h-5" />
           </div>
-          <Link href="https://waledashboard.netlify.app/" target="_blank">
+          <Link href="https://risto-school.vercel.app/" target="_blank">
             <div className="hover:bg-basecolor hover:opacity-50 hover:transition hover:ease-linear hover:delay-200">
               <Image
                 src="/icons/p1.png"
@@ -51,7 +51,7 @@ const Projects = () => {
             <span className="text-lg font-medium">See Project</span>
             <ArrowUpRight className="w-5 h-5" />
           </div>
-          <Link href="https://techappen.netlify.app/" target="_blank">
+          <Link href="https://waledashboard.netlify.app/" target="_blank">
             <div className="hover:bg-basecolor hover:opacity-50 hover:transition hover:ease-linear hover:delay-200">
               <Image
                 src="/icons/p2.png"
