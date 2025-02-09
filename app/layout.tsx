@@ -29,7 +29,7 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="pxS9ENE0hmzepwa-TV2eWuJRR1ltL8aLeghDtKVninM"
+          content="BryEDNY6ARF6LmSr5ysgQB6xgW7ZfGFJYOmIs72MO9U"
         />
       </head>
       <body className={`${poppins.variable} ${syne.variable} antialiased`}>
